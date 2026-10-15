@@ -1,0 +1,9 @@
+data_dir: ../data/demo
+rules_path: rules.yaml
+timezone: Asia/Shanghai
+base_currency: CNY
+opening_balance: '1000.00'
+fx_as_of: '2026-09-30'
+fx_rates:
+  CNY: '1'
+  USD: '7.00'

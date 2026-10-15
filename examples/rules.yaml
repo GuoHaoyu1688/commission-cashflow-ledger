@@ -1,0 +1,13 @@
+version: 1
+default:
+  basis: receipts
+  rate: '0.03'
+  withholding_rate: '0.10'
+  payout_delay_months: 0
+overrides:
+  D-2026-002:
+    tiers:
+      - up_to: '500000'
+        rate: '0.03'
+      - up_to: null
+        rate: '0.04'

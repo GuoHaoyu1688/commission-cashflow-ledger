@@ -1,0 +1,15 @@
+[
+  {"record_type":"deals","id":"demo-deal-1","code":"D-2026-001","client_code":"CLIENT-A","signed_date":"2026-09-01","amount":"100000.00","currency":"CNY","status":"active","tags":["fictional","service"]},
+  {"record_type":"deals","id":"demo-deal-2","code":"D-2026-002","client_code":"CLIENT-B","signed_date":"2026-09-01","amount":"700000.00","currency":"CNY","status":"active","tags":["fictional","tiered"]},
+  {"record_type":"payment_plans","id":"demo-plan-1","deal_id":"demo-deal-1","due_date":"2026-09-15","amount":"50000.00","note":"First installment"},
+  {"record_type":"payment_plans","id":"demo-plan-2","deal_id":"demo-deal-1","due_date":"2026-11-15","amount":"50000.00","note":"Final installment"},
+  {"record_type":"payment_plans","id":"demo-plan-3","deal_id":"demo-deal-2","due_date":"2026-09-20","amount":"600000.00","note":"First installment"},
+  {"record_type":"payment_plans","id":"demo-plan-4","deal_id":"demo-deal-2","due_date":"2026-12-20","amount":"100000.00","note":"Final installment"},
+  {"record_type":"receipts","id":"demo-receipt-1","deal_id":"demo-deal-1","date":"2026-09-15","amount":"50000.00","note":"Fictional customer collection"},
+  {"record_type":"receipts","id":"demo-receipt-2","deal_id":"demo-deal-2","date":"2026-09-20","amount":"600000.00","note":"Fictional customer collection"},
+  {"record_type":"recurring","id":"demo-salary","name":"Fictional salary","kind":"income","amount":"5000.00","currency":"CNY","freq":"monthly","start":"2026-09-01","end":null},
+  {"record_type":"recurring","id":"demo-rent","name":"Fictional rent","kind":"expense","amount":"2000.00","currency":"CNY","freq":"monthly","start":"2026-09-05","end":null},
+  {"record_type":"cash_entries","id":"demo-cash-salary","date":"2026-09-01","kind":"income","amount":"5000.00","currency":"CNY","category":"salary","recurring_id":"demo-salary","note":"Actual fictional payment"},
+  {"record_type":"cash_entries","id":"demo-cash-rent","date":"2026-09-05","kind":"expense","amount":"2000.00","currency":"CNY","category":"rent","recurring_id":"demo-rent","note":"Actual fictional payment"},
+  {"record_type":"cash_entries","id":"demo-cash-commission","date":"2026-09-25","kind":"income","amount":"1000.00","currency":"CNY","category":"commission","deal_id":"demo-deal-1","note":"Partial fictional commission payout"}
+]
